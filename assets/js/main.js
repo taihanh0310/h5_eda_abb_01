@@ -84,6 +84,7 @@ var main = {
      */
     handleMusicPlay: function(element, flag){
         var music = $(element)[0];
+        console.log(music.duration);
         if(flag == 1){
             music.play();
             music.currentTime = 0;
