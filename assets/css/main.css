@@ -88,12 +88,11 @@
     position: absolute;
     bottom: 200px;
     border: 0;
-    width: 30px; 
+    width: 40px; 
 }
 
 #play-music{
     left: 10px;
-    
 }
 
 #next-slide{
