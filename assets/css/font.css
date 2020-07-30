@@ -13,3 +13,8 @@
 	src: url('../fonts/ITCAVANTGARDESTD-BKCN.OTF');
 }
 
+@font-face {
+	font-family: 'VIE-AvantGardeBold';
+	src: url('../fonts/VIE-AvantGardeBold.otf');
+}
+

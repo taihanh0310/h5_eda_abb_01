@@ -2,7 +2,7 @@ html, body{
     margin:0 !important; padding:0;
     width:100%; height:100%;
     background:#fff;
-    font-family: 'ITCAVANTGARDESTD-BKCN';
+    font-family: 'VIE-AvantGardeBold';
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,9 +12,10 @@ html, body{
 .ITCAVANTGARDESTD-BOLD{font-family: 'ITCAVANTGARDESTD-BOLD';}
 .ITCAVANTGARDESTD-DEMI{font-family: 'ITCAVANTGARDESTD-DEMI';}
 .ITCAVANTGARDESTD-BKCN{ font-family: 'ITCAVANTGARDESTD-BKCN';}
+.VIE-AvantGardeBold{font-family: 'VIE-AvantGardeBold';}
 
-b{font-family: 'ITCAVANTGARDESTD-BOLD'; font-weight: normal;}
-strong{ font-family: 'ITCAVANTGARDESTD-DEMI';}
+b{font-family: 'VIE-AvantGardeBold'; font-weight: normal;}
+strong{ font-family: 'VIE-AvantGardeBold';}
 
 /* text color */
 .white{ color:#fff;}

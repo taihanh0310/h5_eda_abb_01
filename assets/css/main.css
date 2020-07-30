@@ -69,7 +69,7 @@
 .drop_zone{
     width:100px; height:100px;
     position: absolute;
-    border:1px solid #000;
+    /* border:1px solid #000; */
     z-index: 3;
 }
 
@@ -82,4 +82,20 @@
     width:100%; height:100%;
     position: absolute; left:0; top:0;
     z-index: 2;
+}
+
+.bottom-action {
+    position: absolute;
+    bottom: 200px;
+    border: 0;
+    width: 30px; 
+}
+
+#play-music{
+    left: 10px;
+    
+}
+
+#next-slide{
+    right: 10px;
 }

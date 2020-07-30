@@ -17,7 +17,10 @@
     <div id="container">
         <div class="top_menu_toggle"></div>
         <div class="main_content">
-            <div class="line_bg line_1"></div>
+            <div class="line_bg line_1">
+
+            </div>
+
             <div class="curve_bg">
                 <div class="arrow_1"></div>
                 <div class="arrow_2"></div>
@@ -27,6 +30,54 @@
                 <div class="drag_icon drag_icon_1" id="drag_icon_1"></div>
                 <div class="drag_icon drag_icon_2" id="drag_icon_2"></div>
             </div>
+            <button id="play-music" class="bottom-action">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#6c1e49" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-play">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                </svg>
+
+            </button>
+            <button id="next-slide" class="bottom-action" style="display: none;">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 511.983 511.983"
+                    style="enable-background:new 0 0 511.983 511.983;" xml:space="preserve">
+                    <path style="fill:#6c1e49;" d="M507.328,215.175l-234.667-160c-4.873-3.311-11.507-2.045-14.817,2.828
+	c-1.199,1.765-1.841,3.849-1.844,5.983v96.213C91.947,166.983,2.133,329.33,0,447.453v0.533c0,5.891,4.776,10.667,10.667,10.667l0,0
+	c5.825,0.001,10.573-4.672,10.667-10.496v-0.619C22.528,418.887,134.656,295.303,256,288.306v95.68
+	c0.007,5.891,4.788,10.661,10.679,10.655c2.134-0.002,4.218-0.645,5.983-1.844l234.667-160c4.866-3.321,6.119-9.957,2.798-14.823
+	C509.376,216.875,508.427,215.925,507.328,215.175z" />
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                    <g>
+                    </g>
+                </svg>
+            </button>
         </div>
         <div id="bot_menu">
             <div class="menu_icon home_icon"></div>
@@ -60,22 +111,23 @@
 
         <!-- phan cua ku Hanh -->
         <div id="player">
-            <audio autoplay hidden id="music-start">
-                <source src="./assets/mp3/right_hand_simple.wav" type="audio/mpeg">
+            <audio autoplay hidden id="music-start" loop>
+                <source src="./assets/mp3/485420__inspectorj__radio-noise-long-wave-01-01-loop.wav" type="audio/mpeg">
                 If you're reading this, audio isn't supported.
 
                 test
             </audio>
 
-            <audio hidden id="music-right-swipe">
-                <source src="./assets/mp3/right_hand_simple.wav" type="audio/mpeg">
-                If you're reading this, audio isn't supported.
-
-                test
-            </audio>
-
-            <audio hidden id="music-left-swipe">
+            <audio hidden id="music-left-swipe" src="./assets/mp3/left_hand_completed.wav">
                 <source src="./assets/mp3/left_hand_completed.wav" type="audio/mpeg">
+                If you're reading this, audio isn't supported.
+
+                test
+            </audio>
+
+            <audio hidden id="music-right-swipe" src="./assets/mp3/right_hand_simple.wav">
+
+                <source src="./assets/mp3/right_hand_simple.wav" type="audio/mpeg">
                 If you're reading this, audio isn't supported.
 
                 test
@@ -86,6 +138,7 @@
     <!-- Scripts -->
     <script src="./assets/js/jquery-3.5.1.min.js"></script>
     <script src="./assets/js/jquery-ui.js"></script>
+    <script src="./assets/js/jquery.ui.touch-punch.min.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
