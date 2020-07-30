@@ -1,0 +1,85 @@
+.main_content{
+    width:100%; height:100%;
+    position: absolute; left:0; top:0;    
+}
+.line_bg{
+    background-size: 100% auto !important;
+    width:100%; height: 100%;
+    position: absolute; left:0; top:0;
+}
+
+.line_bg.line_1{
+    background:url(../images/line_1.png) no-repeat;
+}
+.line_bg.line_2{
+    background:url(../images/line_2.png) no-repeat;
+}
+.line_bg.line_3{
+    background:url(../images/line_3.png) no-repeat;
+}
+.line_bg.final_screen{
+    background:url(../images/final_screen.jpg) no-repeat;
+}
+
+.curve_bg{
+    background:url(../images/curve_bg.png) no-repeat;
+    background-size: 100% auto;
+    width:615px; height:185px;
+    position: absolute; left:225px; top:455px;
+}
+
+.arrow_1{
+    background:url(../images/arrow_1.png) no-repeat;
+    background-size: 100% auto;
+    width:68px; height:48px;
+    position: absolute; left:115px; top:53px;
+    -webkit-animation: shining infinite linear 1s;
+}
+
+.arrow_2{
+    background:url(../images/arrow_2.png) no-repeat;
+    background-size: 100% auto;
+    width:71px; height:45px;
+    position: absolute; left:426px; top:88px;
+    -webkit-animation: shining infinite linear 1s;
+}
+
+@keyframes shining{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.drag_icon{
+    background:url(../images/drag_icon.png) no-repeat;
+    background-size: 100% auto !important;
+    position: absolute;
+    width:110px; height:110px;
+    z-index: 3;
+}
+.drag_icon.active{
+    background:url(../images/drag_icon_active.png) no-repeat;
+    width:100%; height:100%;
+    left:0; top:0;
+}
+
+.drag_icon_1{left:180px; top:42px;}
+.drag_icon_2{left:318px; top:42px;}
+
+.drop_zone{
+    width:100px; height:100px;
+    position: absolute;
+    border:1px solid #000;
+    z-index: 3;
+}
+
+.drop_zone_1{left:7px;top:77px;}
+.drop_zone_2{left:508px;top:6px;}
+
+.yel_arrow{
+    background:url(../images/yel_arrow.png) no-repeat;
+    background-size: 100% auto;
+    width:100%; height:100%;
+    position: absolute; left:0; top:0;
+    z-index: 2;
+}

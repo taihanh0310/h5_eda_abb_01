@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'ITCAVANTGARDESTD-BOLD';
+	src: url('../fonts/ITCAVANTGARDESTD-BOLD.OTF');
+}
+@font-face {
+	font-family: 'ITCAVANTGARDESTD-DEMI';
+	src: url('../fonts/ITCAVANTGARDESTD-DEMI.OTF');
+}
+@font-face {
+	font-family: 'ITCAVANTGARDESTD-BKCN';
+	src: url('../fonts/ITCAVANTGARDESTD-BKCN.OTF');
+}
+

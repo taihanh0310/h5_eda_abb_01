@@ -5,44 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>Document</title>
+    <link href="./assets/css/font.css" rel="stylesheet">
+    <link href="./assets/css/global.css" rel="stylesheet">
     <link href="./assets/css/main.css" rel="stylesheet">
-    <style>
-        #draggable {
-            width: 100px;
-            height: 100px;
-            padding: 0.5em;
-            float: left;
-            margin: 10px 10px 10px 0;
-        }
-
-        #droppable {
-            width: 150px;
-            height: 150px;
-            padding: 0.5em;
-            float: left;
-            margin: 10px;
-        }
-    </style>
+    <link href="./assets/css/menu.css" rel="stylesheet">
 </head>
 
 <body>
+    <div id="container">
+        <div class="top_menu_toggle"></div>
+        <div class="main_content">
+            <div class="line_bg line_1"></div>
+            <div class="curve_bg">
+                <div class="arrow_1"></div>
+                <div class="arrow_2"></div>
+                <div class="yel_arrow"></div>
+                <div class="drop_zone drop_zone_1" id="drop_zone_1"></div>
+                <div class="drop_zone drop_zone_2" id="drop_zone_2"></div>
+                <div class="drag_icon drag_icon_1" id="drag_icon_1"></div>
+                <div class="drag_icon drag_icon_2" id="drag_icon_2"></div>
+            </div>
+        </div>
+        <div id="bot_menu">
+            <div class="menu_icon home_icon"></div>
+            <div class="menu_icon sitemap_icon"></div>
+            <div class="menu_icon TKNC_icon"></div>
+            <div class="menu_icon book_icon"></div>
+            <div class="menu_list white">
+                <div class="menu_nav">
+                    <p class="align_center"><b>Mở đầu</b></p>
+                </div>
+                <div class="menu_nav">
+                    <p class="align_center"><b>Glucerna</b></p>
+                </div>
+                <div class="menu_nav">
+                    <p class="align_center"><b>Kiểm soát<br>đường huyết<br>cơ chế kép</b></p>
+                </div>
+                <div class="menu_nav">
+                    <p class="align_center"><b>Dinh dưỡng<br>đầy đủ & cân đối</b></p>
+                </div>
+                <div class="menu_nav">
+                    <p class="align_center"><b>CMLS</b></p>
+                </div>
+                <div class="menu_nav">
+                    <p class="align_center"><b>Cách sử dụng</b></p>
+                </div>
+                <div class="menu_nav">
+                    <p class="align_center"><b>Kết luận</b></p>
+                </div>
+            </div>
+        </div>
 
-    <div id="player">
-        <audio autoplay hidden id="music-start">
-         <source src="./assets/mp3/right_hand_simple.wav" type="audio/mpeg">
-                    If you're reading this, audio isn't supported. 
-        </audio>
-        <button id="handle-music">stop music</button>
+        <!-- phan cua ku Hanh -->
+        <div id="player">
+            <audio autoplay hidden id="music-start">
+                <source src="./assets/mp3/right_hand_simple.wav" type="audio/mpeg">
+                If you're reading this, audio isn't supported.
+
+                test
+            </audio>
+
+            <audio hidden id="music-right-swipe">
+                <source src="./assets/mp3/right_hand_simple.wav" type="audio/mpeg">
+                If you're reading this, audio isn't supported.
+
+                test
+            </audio>
+
+            <audio hidden id="music-left-swipe">
+                <source src="./assets/mp3/left_hand_completed.wav" type="audio/mpeg">
+                If you're reading this, audio isn't supported.
+
+                test
+            </audio>
+        </div>
     </div>
 
-    <div id="draggable" class="ui-widget-content">
-        <p>Keo vao text ben canh de nghe nhac</p>
-    </div>
-
-    <div id="droppable" class="ui-widget-header">
-        <p>Keo vao day</p>
-    </div>
     <!-- Scripts -->
     <script src="./assets/js/jquery-3.5.1.min.js"></script>
     <script src="./assets/js/jquery-ui.js"></script>
